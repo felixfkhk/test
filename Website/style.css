@@ -4,7 +4,49 @@ html {
   padding: 0;
   margin: 0;
   /* background-color: #E5E5E5; */
-  background-color: #F08B47;
+  background-color: #f4763e;
+  font-family: "Futura", sans-serif;
+}
+
+#info {
+    position:relative;
+    padding-bottom: 680px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+#info div {
+    position:absolute;
+    margin:0;
+    padding: 10px;
+}
+#info div:nth-child(1) {
+    top:0;
+    left:0;
+    z-index: 3;
+}
+#info div:nth-child(2) {
+    top:0;
+    right:0;
+    z-index: 3;
+}
+#info div:nth-child(3) {
+    bottom:0;
+    left:0;
+    z-index: 3;
+}
+#info div:nth-child(4) {
+    bottom:0;
+    right:0;
+    z-index: 3;
+    text-align: right;
+}
+#info div:nth-child(5) {
+    top: 35%;
+    left: 23.5%;
+    font-size: 108px;
+    font-weight: 600;
+    z-index: 3;
 }
 
 /* .top {
@@ -21,26 +63,6 @@ html {
   font-weight: 200;
   font-family: "Futura", serif;
 } */
-
-
-h1 {
-  text-align: center;
-  font-size: 6rem;
-  padding-top: 15%;
-  font-family: "Futura", serif;
-  z-index: 100;
-  color: white;
-}
-
-h2 {
-  text-align: center;
-  font-weight: 200;
-  font-size: 1rem;
-  padding-top: 12%;
-  font-family: "Futura", serif;
-  z-index: 100;
-  color: white;
-}
 
 /* #type {
   z-index: -1; */
